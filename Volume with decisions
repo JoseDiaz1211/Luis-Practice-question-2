@@ -1,18 +1,18 @@
-# This program calculates the valume of three different objects : a sphere, a cube, and a cone. It also asks the
+# This program calculates the volume of three different objects : a sphere, a cube, and a cone. It also asks the
 # the user to input the parameters for those objects.
 
 if __name__ == '__main__':
 
-    def cone_volume():
+    def cone_volume(radius=False, height=False):
         radius = float(input('What is the radius of your cone? '))
         height = float(input('What is the height of your cone? '))
         return 1/3 * 3.14 * (radius*radius) * height
 
-    def cube_volume():
+    def cube_volume(area=False):
         area = float(input('What is the area of your cube? '))
         return area*area*area
 
-    def sphere_volume():
+    def sphere_volume(radius=False):
         radius = float(input('What is the radius of your sphere? '))
         return 4/3 * 3.14 * (radius**3)
 
