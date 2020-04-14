@@ -1,0 +1,14 @@
+
+*
+!*/
+
+*~
+
+# Build directories
+
+# Exceptions
+
+!*.py
+
+!.gitignore
+!README.md
